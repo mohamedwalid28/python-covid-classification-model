@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\static\css\style1.css">
+<head>
+    <body>
+
+        <!--.start Header..-->
+        <header>
+            <div class="container">
+                <figure id="img3" onmouseenter="mouseon()" onmouseleave="mouseou()">
+                <img src="..\static\images\img3.png" alt="a" id="img">
+                </figure>
+                </a>
+                <nav>
+                    <ul>
+                        <li> <a href="#">Learn more</a></li>
+                        <li> <a href="#">About Us</a></li>
+                        <li> <a href="#" class ="special">Proceed to testing </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+          
+    <p> <span>
+          Please enter required data for testing your Covid-19 results:
+        </span>
+    </p>
+    <h></h>
+    <h></h>
+    <h></h>
+    <h></h>
+     <br> </br>
+     <div style="background-image: linear-gradient(90deg, grey 100%);">
+        <div style="width: 50%; float: left;">
+            
+        <form method="POST" action="{{url_for('p22')}}">
+            <h4>
+        <label>Enter your name:- </label> 
+           </h4>
+            <input type="text" name="username" placeholder="Type your name...">
+   <br></br>
+           <h4>Do you have fever?</h4>
+   <div>
+     <input type="radio" value="1" name="Fever"checked>
+    <label for="">Yes</label>
+   </div>
+   <div>
+    <input type="radio" value="0" name="Fever">
+    <label for="">No</label>
+   </div>
+   <br></br>
+   <h4>Do you suffer from tiredness?</h4>
+   <div>
+    <input type="radio" value="1" name="Tiredness"checked>
+    <label for="">Yes</label>
+   </div>
+   <div>
+    <input type="radio" value="0" name="Tiredness">
+    <label for="">No</label>
+   </div>
+   <br></br>
+   <h4>Do you suffer from dry cough?</h4>
+   <div>
+    <input type="radio" value="1" name="Dry-Cough"checked>
+    <label for="">Yes</label>
+   </div>
+   <div>
+    <input type="radio" value="0" name="Dry-Cough">
+    <label for="">No</label>
+   </div>
+   <br></br>
+   <h4>Do you suffer from difficulty in breathing ?</h4>
+   <div>
+    <input type="radio" value="1" name="Difficulty-in-Breathing"checked>
+    <label for="">Yes</label>
+   </div>
+   <div>
+    <input type="radio" value="0" name="Difficulty-in-Breathing">
+    <label for="">No</label>
+   </div>
+   <br></br>
+   <h4>Do you suffer from sore throat?</h4>
+   <div>
+    <input type="radio" value="1" name="Sore-Throat" checked>
+    <label for="">Yes</label>
+   </div>
+   <div>
+    <input type="radio" value="0" name="Sore-Throat">
+    <label for="">No</label>
+   </div>
+   <br></br>
+   <h4>The Previous 5 symptoms are the major symptoms declared by the world health, please assure that you dont have at least 1 of them</h4>
+   <div>
+    <input type="radio" value="1" name="None_Sympton"checked>
+    <label for="">Yes,I suffer from 1 at least</label>
+   </div>
+   <div>
+    <input type="radio" value="0" name="None_Sympton" >
+    <label for="">No,I don't have any of them</label>
+   </div>
+   <br></br>
+   <h4>Do you suffer from pains?</h4>
+   <div>
+    <input type="radio" value="1" name="Pains" checked>
+    <label for="">Yes</label>
+   </div>
+   <div>
+    <input type="radio" value="0" name="Pains">
+    <label for="">No</label>
+   </div>
+   <br></br>
+   <h4>Do you suffer from nasal congestion?</h4>
+   <div>
+    <input type="radio" value="1" name="Nasal-Congestion" checked>
+    <label for="">Yes</label>
+   </div>
+   <div>
+    <input type="radio" value="0" name="Nasal-Congestion">
+    <label for="">No</label>
+   </div>
+   <br></br>
+   <h4>Do you suffer from a runny nose ?</h4>
+   <div>
+    <input type="radio" value="1" name="Runny-Nose" checked>
+    <label for="">Yes</label>
+   </div>
+   <div>
+    <input type="radio" value="0" name="Runny-Nose">
+    <label for="">No</label>
+   </div>
+   <br></br>
+   <h4>Do you suffer from diarrhea?</h4>
+   <div>
+    <input type="radio" value="1" name="Diarrhea" checked >
+    <label for="">Yes</label>
+   </div>
+   <div>
+    <input type="radio" value="0" name="Diarrhea">
+    <label for="">No</label>
+   </div>
+   <br></br>
+   <h4>The Previous 4 symptoms are side symptoms that may result from Covid-19, please assure that you dont have at least 1 of them</h4>
+   <div>
+    <input type="radio" value="1" name="None_Experiencing"checked>
+    <label for="">Yes,I suffer from 1 at least</label>
+   </div>
+   <div>
+    <input type="radio" value="0" name="None_Experiencing">
+    <label for="">No,I don't have any of them</label>
+   </div>
+   <br></br>
+   
+        
+    </div>
+
+   </div>
+<div style="width: 50%; float: right;">
+    <h4> Gender is</h4>
+            <div>
+                <input type="radio" value="1" name="Gender_Male" checked>
+                <label for="">Male</label>
+            </div>
+            <div>
+                <input type="radio" value="0" name="Gender_Male">
+                <label for="">Female</label>
+            </div>
+            <br></br>
+            <h4> Did you contact some other covid person in last 2 weeks?</h4>
+            <div>
+                <input type="radio" value="1" name="Contact_Yes" checked>
+                <label for="">Yes</label>
+            </div>
+            <div>
+                <input type="radio" value="0" name="Contact_Yes">
+                <label for="">No</label>
+                <h4>age:-</h4>
+            <select name="Age " size="n">
+            <option>   </option>
+            <option name = "Age_0-9" value ="1">From 0 to 9 </option>
+            <option name = "Age_10-19" value ="1">From 10 to 19</option>
+            <option name = "Age_20-24" value ="1" selected>From 20 to 24</option>
+            <option name = "Age_25-59" [value] =1>From 25 to 59</option>
+            <option name = "Age_60+" value ="1">Older than 60</option>
+            </select>
+            <br></br>
+            <h4>Last country that you visited</h4>
+            <select name="country " size="n">
+            <option>   </option>
+            <option selected>China</option>
+            <option>Italy</option>
+            <option>Iran</option>
+            <option>Republic of korean</option>
+            <option>France</option>
+            <option>Spain</option>
+            <option>Germany</option>
+            <option>UAE</option>
+            <option>Other-EUR</option>
+            <option>other</option>
+            <option>none</option>
+            </select>
+                <br>
+                <br>
+                <button class="submit" method="POST" action="{{url_for('p22')}}">Get result </button>
+                </br>
+                </br>
+    <br>
+                {{ data }}
+                </br>
+</div>
+    </div>
+    </form>
+
+<!--
+<div style="width: 50%; float: right;">
+    <h4> Gender is</h4>
+            <div>
+                <input type="radio" value="True" name="Gender_Male">
+                <label for="">Male</label>
+            </div>
+            <div>
+                <input type="radio" value="False" name="Gender_Male">
+                <label for="">Female</label>
+            </div>
+            <br></br>
+            <h4> Did you contact some other covid person in last 2 weeks?</h4>
+            <div>
+                <input type="radio" value="True" name="Contact_Yes">
+                <label for="">Yes</label>
+            </div>
+            <div>
+                <input type="radio" value="False" name="Contact_Yes">
+                <label for="">No</label>
+            </div>
+            <br></br>
+            <h4>age:-</h4>
+            <select name="Age " size="n">
+            <option>   </option>
+            <option name = "Age_0-9" value ="1">From 0 to 9 </option>
+            <option name = "Age_10-19" value ="1">From 10 to 19</option>
+            <option name = "Age_20-24" value ="1">From 20 to 24</option>
+            <option name = "Age_25-59" [value] =1>From 25 to 59</option>
+            <option name = "Age_60+" value ="1">Older than 60</option>
+            </select>
+            <br></br>
+            <h4>Last country that you visited</h4>
+            <select name="country " size="n">
+            <option>   </option>
+            <option>China</option>
+            <option>Italy</option>
+            <option>Iran</option>
+            <option>Republic of korean</option>
+            <option>France</option>
+            <option>Spain</option>
+            <option>Germany</option>
+            <option>UAE</option>
+            <option>Other-EUR</option>
+            <option>other</option>
+            <option>none</option>
+            </select>
+            <br></br>
+            <br></br>
+            <div class="item">
+                 <button type="submit"  onclick="getVal()"><a href="{{ url_for('p3')}}" class="special">Get result</button>
+               <!-- <button class="submit" name="SubmitButton">proceed to data entry & Testing</button> - ->
+            </div>
+      </div>
+        {{ data }}
+    </div> -->
+    </body>
+</html>

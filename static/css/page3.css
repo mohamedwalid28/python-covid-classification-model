@@ -1,0 +1,108 @@
+*{
+    PADDING:0PX;
+    MARGIN:0PX;
+}
+
+
+.navbar {
+    background-color: rgb(53, 29, 29); 
+
+    height: 60px;
+    width: 100%;
+    
+    justify-content:center;
+}
+
+ul{
+
+    text-align: center;
+
+}
+
+
+
+.navbar ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-left: 30px;
+
+}
+.navbar ul li a:hover{
+    background-color: brown;
+    font-size: 18px;
+}
+
+.navbar ul li a { margin-left: 50px;
+
+    text-decoration: none;
+    COLOR: WHITE;
+}
+
+/*3333333333333333333333333333333section2////////////////////////////////////////////////////////////*/
+
+
+.h3{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: 10px;
+    
+}
+p{
+    margin-left: 20px;
+    margin-top: 40px;
+    text-decoration:double;
+}
+.body .first .p3{
+    font-size: 18px;
+    font-weight: 40px;
+
+}
+
+
+.body  ol li{
+    
+    list-style-type: square;
+    margin-left:60px;
+}
+.body{
+    display: flex;
+}
+
+.body .second{
+    margin-top: 50px;
+    margin-left: 260px;
+}
+.h32{
+    margin-bottom: 100px;
+}
+body{
+    background-color: rgb(192, 184, 184);
+    border: black 5px;
+}
+/*/////////////////////////////////////button/////////////////////////////////////////*/
+
+button{
+    margin-top:150px;
+    margin-left:37%;
+    background-color:  rgb(53, 29, 29); 
+border-radius: 28px;
+
+width:350px;
+height:60px;
+}
+button a{
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+button a:hover{
+    width:320px;
+    height:65px;
+    color:red;
+    font-size: 19px;
+    }

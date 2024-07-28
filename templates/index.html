@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="..\static\css\style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="">Classification Model</a>
+            <ul>
+                <li><a href="#learnMore-section">Learn More</a></li>
+                <li><a href="#aboutUs-section">About Us</a></li>
+                <li><a href="{{ url_for('p2')}}">Proceed To Testing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="learnMore-section">
+        <p id="Title-p"> CoronaVirus [ COVID-19 ] </p>
+        <div class="paragraphs">
+            <p> . COVID-19 is a respiratory illness caused by the SARS-CoV-2 virus. Symptoms can range from mild (or no
+                symptoms) to
+                severe illness. Some common symptoms include fever, cough, and shortness of breath. Other symptoms can
+                include
+                fatigue,
+                body aches, headache, loss of taste or smell, sore throat, congestion or runny nose, nausea or vomiting,
+                and
+                diarrhea.</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+
+            <p>. COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected
+                person
+                coughs
+                or sneezes. It’s also possible to get COVID-19 by touching a surface or object that has the virus on it
+                and
+                then
+                touching your mouth, nose, or eyes.</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+
+
+            <p>. COVID-19 also spreads when an infected person breathes out droplets and very small particles that
+                contain
+                the
+                virus.
+                These droplets and particles can be breathed in by other people or land on their eyes, noses, or mouth.
+                In
+                some
+                circumstances, they may contaminate surfaces they touch so be aware of whatever you touch</p>
+
+
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+
+            <p>. If you think you have COVID-19 or have been exposed to someone with COVID-19, you should get tested and
+                stay
+                home and
+                away from others until you receive your test results. If you test positive for COVID-19, you should
+                isolate
+                yourself to
+                prevent the spread of the virus. If you develop severe symptoms such as difficulty breathing or
+                persistent
+                chest
+                pain,
+                seek medical attention immediately.
+                <br>I hope this helps! Let me know if you have any other questions.
+            </p>
+        </div>
+    </div>
+
+    <button class="btn"> <a href="{{ url_for('p2')}}" class="special">proceed to data entry & Testing</a></button>
+    <footer>
+        <div id="aboutUs-section">
+            <h3>About Us</h3>
+            <p>Hello over there, we’ve created this website to make people more aware of coronavirus [covid-19], <br> we
+                help
+                them know whether they are infected by the virus of not by gathering some information <br> from them and
+                testing
+                it on a trained Machine Learning Model to get the result and tell them whether they are infected or not
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+/*start header*/
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+header{
+
+   height: 50px;
+   background-color: rgb(46, 35, 35); 
+}
+ul li {
+
+    display: inline-block;
+    color: white;
+   margin-left: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+
+
+}
+a {
+   
+    color: white;
+    text-decoration: none; 
+}
+
+ul li :hover{
+    color:red;
+  font-size: 18px;
+}
+
+
+
+ul {
+    text-align: right;
+}
+header ul li .a1{
+    text-align: left;
+    
+    margin-right:1350px
+}
+.h3{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: 10px;
+    
+}
+p{
+    margin-left: 20px;
+    margin-top: 40px;
+    text-decoration:double;
+}
+.body .first .p3{
+    font-size: 18px;
+    font-weight: 40px;
+
+}
+
+
+.body  ol li{
+    
+    list-style-type: square;
+    margin-left:60px;
+}
+.body div{
+    display: inline-block;
+    
+}
+.body .second{
+    margin-left: 350px;
+    
+}
+button{
+    margin-top:200px;
+    margin-left: 770px;
+    background-color:  rgb(46, 35, 35);
+border-radius: 28px;
+
+width:350px;
+height:60px;
+}
+button a{
+    color:white;
+    font-size: 18px;
+}
+body{
+    border:10px  rgb(46, 35, 35);
+}
+button a:hover{
+width:320px;
+height:65px;
+color:red;
+font-size: 19pxS;
+}
+ body{
+    background-color: gray;
+   border-color: black;
+ }
+ .body .second h3{
+    margin-left: 15px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

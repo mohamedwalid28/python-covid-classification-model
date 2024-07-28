@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+    <title>page3</title>
+    <meta name="viewport" width="device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="../static/css/page3.css">
+</head>
+
+<body>
+ <!--NAVBAR------>
+ <section class="navbar">
+    <ul>
+       
+        <li>
+            <a href="#" class="li1">ClassificationMmodel</a>
+        </li>
+        <li>
+            <a href="#">Learn More</a>
+        </li>
+        <li>
+            <a href="#">About Us</a>
+        </li>
+        <li>
+            <a href="#">Procceed To Testing</a>
+        </li>
+        
+    </ul>
+
+
+    <section class="">
+
+
+
+        <section class="body">
+            <div class="first">
+    
+
+                <h3 class="h3">Hello,{{ Name }} </h3>
+                <p class="p1">Acoording to the data you have entered,your severity level is : {{ data }} </p>
+                <p class="p2">your scale of severity is: {{ scale }}</p>
+                <p class="p3">Here are some tips for COVID-19:</p>
+    
+                <ol>
+                    <li> Get vaccinated as soon as it’s your turn and follow local guidance on vaccination.</li>
+                    <li>Keep physical distance of at least 1 metre from others, even if they don’t appear to be sick.</li>
+                    <li> Avoid crowds and close contact.</li>
+    
+                    <li>Wear a properly fitted mask when physical distancing is not >possible and in poorly ventilated
+                        settings.</li>
+                    <li> Clean your hands frequently with alcohol-based hand rub or soap and water.</li>
+                    <li> Cover your mouth and nose with a bent elbow or tissue when you cough or sneeze.</li>
+                    <li> Dispose of used tissues immediately and clean hands regularly.
+                        If you develop symptoms or test positive for<br> COVID-19, self-isolate until you recover.</li>
+    
+    
+                    <li> Wear a mask properly</li>
+    
+    
+                    <li>Make sure your mask covers your nose, mouth and chin.</li>
+                    <li>Clean your hands before you put your mask on, before and after <br>you take it off, and after you touch
+                        it at any time.</li>
+                    <li>When you take off your mask, store it in a clean plastic bag, and every day either wash it if
+                        it’s a<br>
+                        fabric mask or dispose of it in a trash bin if it’s a medical mask.
+                        Don’t use masks with valves.</li>
+    
+    
+    
+                </ol>
+
+
+
+                
+        </div>
+        <div class="second">
+            <h3 class="h32">The severity scale is from 1 to 4:</h3>
+            <p>scale "1":no severity .You aren't infected.<br>just make sure to stick to the precautions in order to
+                avoid getting infected</p>
+            <p>scale"2":severity is mild ,You aren't infected,but you may be just make sue to stickto the
+                precautions <br>in order to avoid getting infected if you aren't<br>and to help yourself get better as
+                soon as possible if you are infected</p>
+            <p>scale "3":severity is moderate ,You are slightly infected.<br>you should start taking the recomended
+                medications stick to <br>the precautions to get better as soon as possible and to avoid spreading
+                the infection</p>
+
+                <p>scale"4":severity is severe .You are <br>infected.you should<br>start the quarantine instructions,you should call a >doctor to keep up with your case.in order to get well<br>,please keep all your precautions and stay home so infection won't affect youc.<br>i hope all of you be in good healtj</p>
+
+        </div>
+
+
+
+
+    </section>
+
+<button> <a href="{{url_for('man')}}">Back to Main Menu</a></button>
+    
+
+</body>
